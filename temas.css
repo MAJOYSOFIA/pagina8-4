@@ -1,43 +1,38 @@
+body{
+    background-color: ghostwhite;
+}
+
 .contenedor{
-    
     width: 100%;
     height: 1400px;
-    background-color: rgb(0, 217, 255);
 }
+
 .encabezado{
-
-    width: 100%;
-    height: 150px;
-    background-color: rgb(39, 3, 107);
+    background-color: rgb(51, 18, 18);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
 }
+
 .menu{
-
-    width: 100%;
-    height: 100px;
-    background-color: rgb(129, 9, 59);
-}
-.contenedor2{
-
-    width: 100%;
-    height: 1200px;
-    background-color: zrgb(184, 10, 10);
+    margin-top: 20px;
     display: flex;
-}
-.izquierdo{
-
+    border: 2px solid rgb(82, 13, 13);
+    border-radius: 5px;
     width: 20%;
-    height: 1200px;
-    background-color: rgb(0, 204, 255);
+    padding: 10px;
 }
-.centro{
 
-    width: 60%;
-    height: 1200px;
-    background-color: rgb(255, 255, 255);
+.forma{
+    display: flex;
+    align-items: center;
 }
-.derecho{
 
-    width: 20%;
-    height: 1200px;
-    background-color: rgb(23, 121, 177);
+.coco{
+    align-items: center;
+
 }
+
+.opcion{
+    padding: 0 20px 0 
